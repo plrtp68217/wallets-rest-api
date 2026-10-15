@@ -1,15 +1,23 @@
 # Wallets REST API
 
+![Python](https://img.shields.io/badge/Python_3.13-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy_2-D71F00?logo=sqlalchemy&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
 ## Стек
 
-- **Python 3.13**, **uv** — окружение и зависимости
-- **FastAPI** — веб-фреймворк, роутинг (`/api/v1`)
-- **Pydantic** — валидация запросов и сериализация ответов
-- **SQLAlchemy 2 (async) + asyncpg** — ORM и драйвер PostgreSQL
-- **PostgreSQL** — БД
-- **Alembic** — миграции схемы БД
-- **Pytest + pytest-asyncio + HTTPX** — тестирование API
-- **Docker + Docker Compose** — развёртывание
+| Категория | Технологии |
+|---|---|
+| Язык | Python 3.13, uv (окружение и зависимости) |
+| Фреймворк | FastAPI, роутинг `/api/v1` |
+| Валидация | Pydantic |
+| База данных | PostgreSQL |
+| ORM | SQLAlchemy 2 (async), asyncpg |
+| Миграции | Alembic |
+| Тесты | Pytest, pytest-asyncio, HTTPX |
+| Деплой | Docker, Docker Compose |
 
 ## Как это работает
 
