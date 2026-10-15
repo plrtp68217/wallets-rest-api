@@ -78,9 +78,6 @@ FastAPI-функция
 JSON → Клиент
 ```
 
-<<<<<<< HEAD
-Pytest (стандарт для Python) и HTTPX для асинхронных запросов к API - Тестирование
-
 ## Миграции (Alembic)
 
 Все команды выполняются из корня проекта. Строка подключения к БД берётся из переменной окружения `DATABASE_URL`
@@ -124,5 +121,3 @@ uv run alembic current           # текущая версия БД
 uv run alembic history           # список миграций
 uv run alembic upgrade head --sql  # показать SQL без применения
 ```
-=======
->>>>>>> 324d17970d628f7c694809232eede78ae1b08f4d
